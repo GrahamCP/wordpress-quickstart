@@ -232,7 +232,7 @@
 				    "httpGet": {
 					"path": "/wp-admin/install.php",
 					"port": 8080,
-					"scheme": "HTTP",
+					"scheme": "HTTPS",
 					"httpHeaders": [
 					    {
 						"name": "X-Forwarded-Proto",
@@ -249,7 +249,7 @@
 				    "httpGet": {
 					"path": "/wp-admin/install.php",
 					"port": 8080,
-					"scheme": "HTTP",
+					"scheme": "HTTPS",
 					"httpHeaders": [
 					    {
 						"name": "X-Forwarded-Proto",
