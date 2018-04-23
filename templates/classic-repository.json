@@ -21,7 +21,7 @@
         {
             "name": "QUICKSTART_REPOSITORY_URL",
             "description": "The URL of the quickstart Git repository.",
-            "value": "https://github.com/openshift-evangelists/wordpress-quickstart",
+            "value": "https://github.com/GrahamCP/wordpress-quickstart",
             "required": true
         },
         {
@@ -296,7 +296,7 @@
 				    "httpGet": {
 					"path": "/wp-admin/install.php",
 					"port": 8080,
-					"scheme": "HTTPS",
+					"scheme": "HTTP",
 					"httpHeaders": [
 					    {
 						"name": "X-Forwarded-Proto",
@@ -313,7 +313,7 @@
 				    "httpGet": {
 					"path": "/wp-admin/install.php",
 					"port": 8080,
-					"scheme": "HTTPS",
+					"scheme": "HTTP",
 					"httpHeaders": [
 					    {
 						"name": "X-Forwarded-Proto",
