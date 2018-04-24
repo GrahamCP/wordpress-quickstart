@@ -306,7 +306,7 @@
 				    },
 				    "periodSeconds": 10,
 				    "successThreshold": 1,
-				    "timeoutSeconds": 1
+				    "timeoutSeconds": 120
 				},
 				"livenessProbe": {
 				    "failureThreshold": 3,
@@ -323,7 +323,7 @@
 				    },
 				    "periodSeconds": 10,
 				    "successThreshold": 1,
-				    "timeoutSeconds": 1
+				    "timeoutSeconds": 120
 				},
                                 "env": [
                                     {
